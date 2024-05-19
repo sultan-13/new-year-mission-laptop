@@ -75,6 +75,8 @@ main {
 
 .person {
     width: 450px;
+
+    
 }
 
 li {
@@ -176,37 +178,37 @@ li.list {
 
 /* online course */
 
-.courses{
+.courses {
     display: flex;
     justify-content: space-between;
     margin-bottom: 130px;
-    
+
 }
 
-.course{
+.course {
     background-color: #FFF;
     box-shadow: 4px 4px 10px gray;
     padding: 30px;
     border-radius: 10px;
 }
 
-.course .title{
+.course .title {
     font-size: 20px;
     margin-top: 15px;
     margin-bottom: 10px;
 }
 
-.course .description{
+.course .description {
     color: #444343;
     font-size: 18px;
     margin-bottom: 10px;
 }
 
-.course-img{
+.course-img {
     width: 300px;
 }
 
-.course-btn{
+.course-btn {
     background-color: #16D887;
     border-radius: 5px;
     padding: 12px 15px;
@@ -216,23 +218,23 @@ li.list {
     margin-bottom: 15px;
 }
 
-.course-icon{
+.course-icon {
     width: 24px;
 }
 
-.assign{
+.assign {
     display: flex;
     justify-content: space-between;
-   
+
 }
 
-.logo{
+.logo {
     display: flex;
     align-items: center;
     gap: 7px;
 }
 
-.text{
+.text {
     font-weight: 500;
     color: #737272;
 }
@@ -246,12 +248,12 @@ li.list {
     padding: 80px 140px;
     display: flex;
     justify-content: space-between;
-    
-    
+
+
 }
 
 
-.subscribe{
+.subscribe {
     margin-top: 10px;
 }
 
@@ -292,12 +294,14 @@ input {
     border: 1px solid #FFF;
     margin-top: 30px;
     margin-bottom: 16px;
+    color: #fff;
 
 }
 
 input::placeholder {
     color: #F3F3F3;
     font-size: 18px;
+
 }
 
 .subscribe-btn {
