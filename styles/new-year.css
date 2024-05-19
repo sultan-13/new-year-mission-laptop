@@ -1,0 +1,312 @@
+/* universal */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Work Sans", sans-serif;
+}
+
+/* header */
+
+.header {
+    background-image: url('../images/banner/banner2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: right;
+    padding-right: 230px;
+
+}
+
+
+.banner-title {
+    color: #151414;
+    font-size: 65px;
+    font-weight: 700;
+}
+
+
+.banner-description {
+    width: 494px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+    color: #444343;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background: #F15B22;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 25px;
+    border: 0;
+}
+
+/* main section */
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* failure section */
+
+.my-failure {
+
+    margin-top: 130px;
+}
+
+.previous-failure {
+    display: flex;
+    gap: 130px;
+    align-items: center;
+}
+
+.person-info {
+    margin-top: 80px;
+}
+
+.person {
+    width: 450px;
+}
+
+li {
+    list-style-type: none;
+}
+
+li.list {
+    margin-top: 10px;
+    color: #444343;
+    font-size: 16px;
+}
+
+
+
+.person-info .title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.person-info .description {
+    color: #444343;
+    line-height: 26px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.fa-check {
+    margin-right: 10px;
+    font-size: 16px;
+    color: #16D887;
+}
+
+/* my-plans */
+
+.my-plans {
+    margin-top: 150px;
+    margin-bottom: 130px;
+}
+
+.section-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.plans {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.plan .title {
+    color: #151414;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.plan .description {
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+/* positive-mind */
+
+
+.positive-mind {
+    background-image: url('../images/watch.png'), linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    background-position: center;
+    padding: 60px;
+    margin-bottom: 130px;
+}
+
+.positive-mind .title {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.positive-mind .btn {
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    background: #FFF;
+    padding: 20px 35px;
+    border: 0;
+}
+
+/* online course */
+
+.courses{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 130px;
+    
+}
+
+.course{
+    background-color: #FFF;
+    box-shadow: 4px 4px 10px gray;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.course .title{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.course .description{
+    color: #444343;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.course-img{
+    width: 300px;
+}
+
+.course-btn{
+    background-color: #16D887;
+    border-radius: 5px;
+    padding: 12px 15px;
+    border: 0;
+    color: #444343;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.course-icon{
+    width: 24px;
+}
+
+.assign{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.text{
+    font-weight: 500;
+    color: #737272;
+}
+
+/* footer */
+
+.footer-container {
+
+    background: #151414;
+    color: #fff;
+    padding: 80px 140px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+
+.subscribe{
+    margin-top: 10px;
+}
+
+.future .title {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.future .description {
+    color: #FFF;
+    line-height: 26px;
+    width: 485px;
+    margin-top: 18px;
+    margin-bottom: 24px;
+}
+
+.contact {
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.future img {
+    margin-right: 10px;
+}
+
+.subscribe .title {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+input {
+    display: inline-block;
+    background: transparent;
+    padding: 20px 80px 20px 20px;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    margin-top: 30px;
+    margin-bottom: 16px;
+
+}
+
+input::placeholder {
+    color: #F3F3F3;
+    font-size: 18px;
+}
+
+.subscribe-btn {
+    display: block;
+    border-radius: 8px;
+    background: #FFF;
+    padding: 20px 36px;
+    color: #F15B22;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+}
